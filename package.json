@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "Tooling Final",
   "main": "model-list.html",
+  "type": "module",
   "scripts": {
     "build": "rollup -c",
     "watch": "rollup -c -w"
@@ -10,10 +11,10 @@
   "author": "Benjamin Smith",
   "license": "MIT",
   "dependencies": {
-    "@rollup/plugin-node-resolve": "^15.0.2",
     "web-ifc-viewer": "^1.0.216"
   },
   "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.0.2",
     "rollup": "^3.21.7"
   }
 }
