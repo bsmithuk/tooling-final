@@ -1,0 +1,14 @@
+{
+  "name": "tooling-final",
+  "version": "0.0.1",
+  "description": "Tooling Final",
+  "main": "model-list.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Benjamin Smith",
+  "license": "MIT",
+  "dependencies": {
+    "three": "^0.152.2"
+  }
+}
