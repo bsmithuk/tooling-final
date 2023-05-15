@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./Static/favicon.ico" />
+    <link rel="stylesheet" href="./Styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Project Viewer</title>
+</head>
+<body>
+    <nav class="nav">
+            <a href="./index.html">Home</a>
+            <a href="./viewer.html">Viewer</a>
+            <a href="mailto:contact@bensmith.info">Contact</a>
+    </nav>
+    <section class="app-container" id="ac1">
+        <iframe id="model-iframe" src="https://ifcjs.github.io/ifcjs-crash-course/sample-apps/01/" frameborder="0"></iframe>        <div class="app-container-nav">
+            <button class="app-container-button">
+                <img src="./Static/menu.svg" alt="menu icon">
+            </button>
+            <button class="app-container-button">
+                <img src="./Static/pencil.svg" alt="pencil icon">
+            </button>
+            <button class="app-container-button">
+                <img src="./Static/scissors.svg" alt="scissors icon">
+            </button>
+        </div>
+    </section>
+    <footer>
+        <img class=spinning-logo src="./Static/favicon.ico" alt="Front Page Logo">
+    </footer>
+    <script type="module" src="./model-viewer.js"></script>
+</body>
+</html>
