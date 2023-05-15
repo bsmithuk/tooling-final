@@ -4,7 +4,8 @@
   "description": "Tooling Final",
   "main": "model-list.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rollup -c",
+    "watch": "rollup -c -w"
   },
   "author": "Benjamin Smith",
   "license": "MIT",

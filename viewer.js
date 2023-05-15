@@ -12,4 +12,4 @@ async function loadIfc(url) {
     viewer.shadowDropper.renderShadow(model.modelID);
 }
 
-loadIfc('your/IFC/path/model.ifc');
+loadIfc('./IFC/01.ifc');
