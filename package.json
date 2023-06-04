@@ -10,12 +10,11 @@
   },
   "author": "Benjamin Smith",
   "license": "MIT",
-  "dependencies": {
-    "three": "^0.152.2",
-    "web-ifc-viewer": "^1.0.216"
-  },
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^15.0.2",
     "rollup": "^3.21.7"
+  },
+  "dependencies": {
+    "web-ifc-viewer": "^1.0.215"
   }
 }

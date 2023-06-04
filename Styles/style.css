@@ -20,7 +20,6 @@ nav {
   display: flex;
   align-items:center;
   justify-content: center;
-
 }
 
 iframe {
@@ -169,4 +168,8 @@ a {
   }
 }
 
+#viewer-container {
+  height: 80vh;
+  width: inherit;
+}
 
