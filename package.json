@@ -3,11 +3,11 @@
   "version": "0.0.1",
   "description": "Tooling Final",
   "main": "model-list.html",
-  "type": "module",
   "scripts": {
     "build": "rollup -c",
     "watch": "rollup -c -w"
   },
+  "type": "module",
   "author": "Benjamin Smith",
   "license": "MIT",
   "devDependencies": {
