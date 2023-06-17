@@ -12,3 +12,5 @@ async function loadIfc(url) {
 }
 
 loadIfc('./IFC/01.ifc');
+
+console.log('Hello')
